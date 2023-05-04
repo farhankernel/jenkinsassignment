@@ -5,6 +5,9 @@ namespace MyJenkinsAPI
  /// </summary>
     public class WeatherForecast
     {
+     /// <summary>
+     /// Current Date Time
+     /// </summary>
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
