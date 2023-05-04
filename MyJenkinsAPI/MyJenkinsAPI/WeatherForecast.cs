@@ -1,5 +1,8 @@
 namespace MyJenkinsAPI
 {
+ /// <summary>
+ /// Class to expose weather functions
+ /// </summary>
     public class WeatherForecast
     {
         public DateTime Date { get; set; }
